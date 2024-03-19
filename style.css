@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Lilita One Regular'; 
+    src: url('font.ttf') format('truetype'); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 2px 0 #000000;
+}
+
+body {
+    background: url('background.jpg');
+    text-align: center;
+}
+
+h1, b {
+    font-family: 'Lilita One Regular', sans-serif;
+}
+
+.header > .title > h1 {
+    font-size: 70px;
+}
+
+.header > .title > h1 > img {
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.header > .info {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #00000055;
+}
+
+.header > .info > p {
+    font-size: 20px;
+}
+
+.header > .info > li {
+    list-style: decimal;
+}
+
+.layout > div {
+    margin: 10px;
+}
+
+.layout > .settings {
+    background: #00000055;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    text-shadow: none;
+    resize: none;
+    border: solid 5px #efc609;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 0 #000000;
+    outline: none;
+    color: #000000;
+}
+
+select {
+    text-shadow: none;
+    border: solid 3px #efc609;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 0 #000000;
+    outline: none;
+    color: #000000;
+}
+
+option {
+    text-shadow: none;
+    color: #000000;
+}
+
+.footer {
+    background: #000000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer > p > a {
+    color: #4875f1;
+    text-decoration: none;
+    font-weight: 600;
+}
