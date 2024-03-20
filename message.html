@@ -14,17 +14,27 @@
                 <a href="index.html"><h1><img src="favicon.png" class="bs-logo">BS Sublink</h1></a>
             </div>
             <div class="info">
-                <p><b>BS Sublink</b> — лёгкий инструмент для создания ссылки для игры Brawl Stars с открытым исходным кодом. С помошью этого инструмента можно, например, подшутить над своим другом.</p>
+                <h2>Как это работает?</h2>
+                <li>На этом сайте вы создаёте ссылку, которая ведёт на страницу получения награды для игры Brawl Stars (<a href="https://link.brawlstars.com">link.brawlstars.com</a>).</li>
+                <li>Человек открывает ссылку, и перед ним появляется кнопка «‎Получить награду».</li>
+                <li>Человек нажимает на кнопку, и его перекидывает в игру.</li>
+                <li>На экране игры появляется окно «‎Забрать награду?», человек должен нажать на кнопку «‎Забрать», и тогда он увидит ваше сообщение.</li>
             </div>
         </div>
         <div class="layout">
-            <div class="buttons">
-                <div class="redirect">
-                    <a href="redirect.html">Создать ссылку,<br>перенаправляющую на<br>указанный URL-адрес</a>
-                </div>
-                <div class="message">
-                    <a href="message.html">Создать ссылку,<br>выводящую определённое<br>сообщение</a>
-                </div>
+            <div class="input">
+                <textarea cols="40" rows="5" placeholder="Введите ваше сообщение..."></textarea>
+            </div>
+            <div class="result">
+                <textarea cols="40" rows="5" placeholder="Результат будет здесь..."></textarea>
+            </div>
+            <div class="settings">
+                <h3>Настройки</h3>
+                <label for="language">Язык ссылки:</label>
+                <select name="language" class="language">
+                    <option value="ru">Русский</option>
+                    <option value="en">Английский</option>
+                </select>
             </div>
         </div>
         <div class="footer">
@@ -32,5 +42,6 @@
             <h4>Версия: 1.2</h4>
         </div>
     </div>
+    <script src="message.js"></script>
 </body>
 </html>

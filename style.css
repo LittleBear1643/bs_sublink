@@ -20,11 +20,19 @@ h1, b {
     font-family: 'Lilita One Regular', sans-serif;
 }
 
-.header > .title > h1 {
+h2 {
+    margin: 0 0 10px 0;
+}
+
+.header > .title > a {
+    text-decoration: none;
+}
+
+.header > .title > a > h1 {
     font-size: 70px;
 }
 
-.header > .title > h1 > img {
+.header > .title > a > h1 > img {
     width: 50px;
     margin-right: 20px;
     border-radius: 10px;
@@ -47,6 +55,23 @@ h1, b {
 
 .layout > div {
     margin: 10px;
+}
+
+.layout > .buttons > div {
+    margin: 40px;
+    background: #efc609;
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 5px #000000;
+    transform: skew(-5deg);
+    box-shadow: inset 6px 10px 0px #fcf044, inset -6px -10px 0px #c87121;
+}
+
+.layout > .buttons > div > a {
+    font-size: 24px;
+    text-decoration: none;
+    -webkit-text-stroke: 1px #000000;
+    font-weight: 800;
 }
 
 .layout > .settings {
