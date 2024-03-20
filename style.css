@@ -70,8 +70,8 @@ h2 {
 .layout > .buttons > div > a {
     font-size: 24px;
     text-decoration: none;
-    -webkit-text-stroke: 1px #000000;
     font-weight: 800;
+    text-shadow: 0 0 3px #000000;
 }
 
 .layout > .settings {
