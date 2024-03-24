@@ -106,6 +106,46 @@ option {
     color: #000000;
 }
 
+.colors {
+    display: flex;
+    justify-content: center;
+}
+
+.colors > h3 {
+    line-height: 10px;
+}
+
+.colors > div {
+    margin: 5px;
+}
+
+.colors > div > button {
+    background: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.colors > div > button > .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.colors > .red > button > .circle {
+    background: #d40c00;
+}
+
+.colors > .green > button > .circle {
+    background: #32c12c;
+}
+
+.colors > .blue > button > .circle {
+    background: #526eff;
+}
+
 .footer {
     background: #000000;
     margin: 10px;
